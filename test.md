@@ -5,7 +5,7 @@
 ### webpack and plugin installation
 **webpack**
 ```
-npm install --save-dev webpack webpack-dev-server
+npm install --save-dev webpack webpack-dev-server webpack-cli
 ```
 **html, css plugin**
 ```
