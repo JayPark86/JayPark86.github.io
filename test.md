@@ -9,25 +9,25 @@
 - Install Mocha for unit testing
 
 ### webpack and plugin installation
-** webpack **
+**webpack**
 ```
 npm install --save-dev webpack webpack-dev-server
 ```
-** html, css plugin **
+**html, css plugin**
 ```
 npm install --save-dev html-loader html-webpack-plugin
 npm install --save-dev css-loader mini-css-extract-plugin
 ```
 
 ### package.json
-** start/build script **
+**start/build script**
 ```
 "scripts": {
     "start": "webpack-dev-server --hot --progress --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
 }
 ```
-** unit test **
+**unit test**
 ```
 ```
 
@@ -42,7 +42,7 @@ npm install --save-dev css-loader mini-css-extract-plugin
 ### Get words from server and parse JSON
 1. Make validate fn to verify 'time' and 'text'
 ```
-- Make unit test
+**Make unit test**
   - Case 'time' is Number and greater than 0
   - Case 'text' length is greater than 0
 - Make validate fn 
