@@ -1,14 +1,7 @@
 # Typing Game
 
 ## Environment Setting
-- Install webpack
-- Install html and css loader/plugin for exporting
-- Modify package.json
-  - start script: add hot option
-  - build script: make webpack.prod.js and use installed html and css loader/plugin to export to /public
-- Install Mocha for unit testing
 
----
 ### webpack and plugin installation
 **webpack**
 ```
@@ -19,6 +12,7 @@ npm install --save-dev webpack webpack-dev-server
 npm install --save-dev html-loader html-webpack-plugin
 npm install --save-dev css-loader mini-css-extract-plugin
 ```
+
 
 ### package.json
 **start/build script**
@@ -32,11 +26,13 @@ npm install --save-dev css-loader mini-css-extract-plugin
 ```
 ```
 
+
 ### webpack.dev.js
 - set devServer for webpack-dev-server
 
 ### webpack.prod.js
 - set entry, output, module rules, plugins
+
 
 ---
 ## Implementation for fn
@@ -63,6 +59,7 @@ npm install --save-dev css-loader mini-css-extract-plugin
 1.) Make request fn and verify using unit tests above
 ```
 
+
 ### Fn for game
 1. Make timer and score fn for the game
 ```
@@ -75,10 +72,22 @@ npm install --save-dev css-loader mini-css-extract-plugin
 4.) Make score fn
 ```
 
+
 ## Implementation for html
 ### Routing
 1.
 
 
 ###
+
+
+
+---
+- Install webpack
+- Install html and css loader/plugin for exporting
+- Modify package.json
+  - start script: add hot option
+  - build script: make webpack.prod.js and use installed html and css loader/plugin to export to /public
+- Install Mocha for unit testing
+
 
