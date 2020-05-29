@@ -42,36 +42,36 @@ npm install --save-dev css-loader mini-css-extract-plugin
 ### Get words from server and parse JSON
 1. Make validate fn to verify 'time' and 'text'
 ```
-**Make unit test**
+1.) Make unit test
   - Case 'time' is Number and greater than 0
   - Case 'text' length is greater than 0
-- Make validate fn 
+2.) Make validate fn 
 ```
 
 2. Make validate fn to verify JSON response
 ```
-- Make unit test
+1.) Make unit test
   - Case failed/timeout : Alert msg
   - Case 0 length : Alert msg
   - Case greater than 1
-- Make validate fn
+2.) Make validate fn
 ```
 
 3. Make ajax request and parse response(JSON)
 ```
-- Make request fn and verify using unit tests above
+1.) Make request fn and verify using unit tests above
 ```
 
 ### Fn for game
 1. Make timer and score fn for the game
 ```
-- Make unit test for timer
+1.) Make unit test for timer
   - Check whether the timer prints decreasing number every seconds
-- Make timer fn
-- Make unit test for score
+2.) Make timer fn
+3.) Make unit test for score
   - Check if the first score is the number of the game texts
   - Check if the score decreases by 1 on timeout or incorrect input text
-- Make score fn
+4.) Make score fn
 ```
 
 ## Implementation for html
