@@ -8,6 +8,7 @@
   - build script: make webpack.prod.js and use installed html and css loader/plugin to export to /public
 - Install Mocha for unit testing
 
+---
 ### webpack and plugin installation
 **webpack**
 ```
