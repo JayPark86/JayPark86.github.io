@@ -12,6 +12,10 @@ npm install --save-dev webpack webpack-dev-server webpack-cli
 npm install --save-dev html-loader html-webpack-plugin
 npm install --save-dev css-loader mini-css-extract-plugin
 ```
+**mocha unit test**
+```
+npm install --save-dev mocha
+```
 
 ### package.json
 **start/build script**
