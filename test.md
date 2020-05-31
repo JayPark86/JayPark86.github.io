@@ -83,10 +83,12 @@ npm install --save-dev mocha
 
 ## Implementation for html
 ### Routing
-1.
+1. Make index.html for main div tag
+2. Make template files for routing
+3. 
 
-
-###
+### HTML
+1. 
 
 
 
