@@ -14,7 +14,7 @@ npm install --save-dev webpack webpack-dev-server webpack-cli
 npm install --save-dev html-loader html-webpack-plugin
 npm install --save-dev css-loader mini-css-extract-plugin
 ```
-**babel-loader**
+**babel for ES6**
 ```
 npm install --save-dev babel-loader @babel/core
 ```
