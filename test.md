@@ -14,6 +14,10 @@ npm install --save-dev webpack webpack-dev-server webpack-cli
 npm install --save-dev html-loader html-webpack-plugin
 npm install --save-dev css-loader mini-css-extract-plugin
 ```
+**babel-loader**
+```
+npm install --save-dev babel-loader @babel/core
+```
 **mocha unit test**
 ```
 npm install --save-dev mocha
@@ -27,8 +31,9 @@ npm install --save-dev mocha
     "build": "webpack --config webpack.prod.js"
 }
 ```
-**unit test**
+**unit test script**
 ```
+    "test": "./node_modules/mocha/bin/mocha $(find ./src/ -name '*.test.js') --recursive -w"
 ```
 
 ### webpack.dev.js
