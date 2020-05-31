@@ -1,4 +1,6 @@
 # Typing Game
+- OS : Ubuntu Linux System
+- Development tool : vim
 
 ## Environment Setting
 
