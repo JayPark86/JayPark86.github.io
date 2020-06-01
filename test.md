@@ -1,4 +1,4 @@
-# Typing Game
+# **Typing Game**
 - OS : Ubuntu Linux System
 - Development tool : vim
 
@@ -24,16 +24,13 @@ npm install --save-dev mocha
 ```
 
 ### package.json
-**start/build script**
+**start/build script & unit test script**
 ```
 "scripts": {
+    "test": "./node_modules/mocha/bin/mocha $(find ./src/ -name '*.test.js') --recursive -w"
     "start": "webpack-dev-server --hot --progress --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
 }
-```
-**unit test script**
-```
-    "test": "./node_modules/mocha/bin/mocha $(find ./src/ -name '*.test.js') --recursive -w"
 ```
 
 ### webpack.dev.js
@@ -43,7 +40,15 @@ npm install --save-dev mocha
 - set entry, output, module rules, plugins
 
 ---
-## Implementation for fn
+## Implementation
+### Routing
+1. Make index.html for main div tag
+2. Make template files for routing
+
+
+
+
+---
 ### Get words from server and parse JSON
 1. Make validate fn to verify 'time' and 'text'
 ```
