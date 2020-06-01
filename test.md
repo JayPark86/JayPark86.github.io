@@ -2,7 +2,7 @@
 
 ## Environment Setting
 - OS : Ubuntu Linux System
-- Development tool : vim  
+- Development tool : vim
 
 ### webpack and plugin installation
 **webpack**
@@ -21,7 +21,7 @@ npm install --save-dev babel-loader @babel/core
 **mocha unit test**
 ```
 npm install --save-dev mocha
-```
+```  
 
 ### package.json
 **start/build script & unit test script**
@@ -43,12 +43,50 @@ npm install --save-dev mocha
 ## Implementation
 ### Routing
 1. Make index.html for main div tag
-2. Make template files for routing
+2. Make template for game start page and end page
+3. Make routes array to store page with path
+4. Make router function which push current path to window.history and load page template from routes
+
+### utils
+#### ajax.get
+1. Make ajax.get function which request and get responseText using url from parameter
+2. Parse the responseText to JSON and send it to callback function
+#### avg
+1. Make unit test
+2-1. Make the utility function which returns average value using dividend and divider from parameter
+2-2. Returns 0 if either the dividend or divider is 0.
+#### isTextValid
+1. Make unit test
+2. Make a function returns true if the length of the param is greater than 0
+#### isTimeValid
+1. Make unit test
+2. Make a function returns true if the param is not NAN and greater than 0
+#### isWordValid
+1. Make a function returns true if isTextValid() and isTimeValid() is true
+#### extractValidWords
+1. Make unit test
+2. Make a function which excludes invalid words using isWordValid()
+
+### Playing game
+#### Make setters function
+1. Make setters which prints game text, time, and score on start page
+2. Make setters which prints final score and average taken time on end page
+3. 
+
+#### Make start page process function
+1. 
+
+#### Make end page 
+
+#### 
+
+
 
 
 
 
 ---
+### unit test
 ### Get words from server and parse JSON
 1. Make validate fn to verify 'time' and 'text'
 ```
@@ -85,24 +123,3 @@ npm install --save-dev mocha
   - Check if the score decreases by 1 on timeout or incorrect input text
 4.) Make score fn
 ```
----
-## Implementation for html
-### Routing
-1. Make index.html for main div tag
-2. Make template files for routing
-3. 
-
-### HTML
-1. 
-
-
-
----
-- Install webpack
-- Install html and css loader/plugin for exporting
-- Modify package.json
-  - start script: add hot option
-  - build script: make webpack.prod.js and use installed html and css loader/plugin to export to /public
-- Install Mocha for unit testing
-
-
