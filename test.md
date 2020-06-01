@@ -4,7 +4,6 @@
 - OS : Ubuntu Linux System
 - Development tool : vim <br><br>
 
-
 ### webpack and plugin installation
 **webpack**
 ```
