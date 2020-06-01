@@ -34,10 +34,10 @@ npm install --save-dev mocha
 ```
 
 ### webpack.dev.js
-- set devServer for webpack-dev-server
+- set devServer, entry, output, module rules, plugins for webpack-dev-server
 
 ### webpack.prod.js
-- set entry, output, module rules, plugins
+- set entry, output, module rules, plugins for production
 
 ---
 ## Implementation Strategy
