@@ -1,8 +1,8 @@
-# **Typing Game**
-- OS : Ubuntu Linux System
-- Development tool : vim
+# Typing Game
 
 ## Environment Setting
+- OS : Ubuntu Linux System
+- Development tool : vim
 
 ### webpack and plugin installation
 **webpack**
@@ -85,7 +85,7 @@ npm install --save-dev mocha
   - Check if the score decreases by 1 on timeout or incorrect input text
 4.) Make score fn
 ```
-
+---
 ## Implementation for html
 ### Routing
 1. Make index.html for main div tag
