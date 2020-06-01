@@ -46,13 +46,13 @@ npm install --save-dev mocha
 
 ### Routing
 1. Make templates for start and end page
-2. Make routes[] and router to set template pages with path
+2. Make routes[] and router to set template pages with pathname
 
 ### Game
 1. Make unit tests for validation checking function
 2. Make ajax.get and validation checking function for responseText  
   2-1. Parse responseText into JSON and send it to callback  
-3. Make a loop which extracts words from data one by one  
+3. Make a loop which extracts words from JSON data one by one  
   3-1. If words length is 0, calculate average time and navigate to end page  
   3-2. If not, set page with the extracted text, time and score  
 4. Use setInterval to set game timer
