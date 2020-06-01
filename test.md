@@ -2,7 +2,7 @@
 
 ## Environment Setting
 - OS : Ubuntu Linux System
-- Development tool : vim <br><br>
+- Development tool : vim  
 
 ### webpack and plugin installation
 **webpack**
