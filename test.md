@@ -40,7 +40,29 @@ npm install --save-dev mocha
 - set entry, output, module rules, plugins
 
 ---
-## Implementation
+## Implementation Strategy
+### HTML
+1. Make main div index page
+
+### Routing
+1. Make templates for start and end page
+2. Make routes[] and router to set template pages with path
+
+### Utils
+1. Make validation checking function for the responseText
+2. Parse responseText into JSON and send it to callback
+
+### Game
+1. Send and receive parsed JSON data by callback
+2. The callback will check validation of the data by using Utils
+3. Make a loop which extracts words from data one by one
+3-1. If words length is 0, calculate average time and navigate to end page
+3-2. If not, set page with the extracted text, time and score
+4. Use setInterval to set timer
+
+---
+---
+
 ### Routing
 1. Make index.html for main div tag
 2. Make template for game start page and end page
@@ -67,18 +89,22 @@ npm install --save-dev mocha
 1. Make unit test
 2. Make a function which excludes invalid words using isWordValid()
 
-### Playing game
-#### Make setters function
+### game function
+#### setters
 1. Make setters which prints game text, time, and score on start page
 2. Make setters which prints final score and average taken time on end page
 3. 
 
-#### Make start page process function
-1. 
-
-#### Make end page 
+#### start page
+1. Make onStart() which get game words from ajax.get by sending url and startGame() as a callback
+2. Make startGame() 
+2. Make onReset() 
 
 #### 
+
+#### end page 
+
+#### event listener
 
 
 
